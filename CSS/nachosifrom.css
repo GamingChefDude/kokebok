@@ -1,0 +1,42 @@
+/* Split the screen in half */
+.split {
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 3%;
+    background-color: darkgray;
+    position: absolute;
+    top: 1100px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 61%;
+    width: 24%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 3%;
+    background-color: lightgray;
+    position: absolute;
+    top: 1030px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 45%;
+    width: 40%;
+  }
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#pimg{
+    text-align: center;
+}

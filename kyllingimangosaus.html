@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylling i mangosaus</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/kyllingimangosaus.css">
+    <script src="JS/kyllingimangosaus.js"></script>
+</head>
+<body>
+    
+<header>
+    <h2>Kylling i mangosaus</h2>
+</header>
+
+    <nav>
+        <a href="index.html"> Start side </a>
+        <a href="middag.html"> Tilbake </a>
+    </nav>
+
+<section>
+  <p id="pimg"><img src="BILDER/Kylling i mango saus.png" alt="kyllingimangosaus"></p>
+  <div class="split left">
+      <div class="centered">
+        <h2>Ingredienser</h2>
+        <p>antall porsjoner: </p>
+
+          <div class="ingredients-container">
+            <input type="number" id="portion-input" min="1" value="4" oninput="updateIngredients()">
+            <p>Kylling</p>
+            <div class="ingredient-item">
+              <span class="ingredient-name">kyllingfilet (g)</span>
+              <span id="kylling-amount" class="ingredient-amount">600</span>
+            </div>
+            
+            <div class="ingredient-item">
+              <span class="ingredient-name">salt (ts)</span>
+              <span id="salt-amount" class="ingredient-amount">0,5</span>
+            </div>
+            
+            <div class="ingredient-item">
+              <span class="ingredient-name">pepper (ts)</span>
+              <span id="pepper-amount" class="ingredient-amount">0,5</span>
+            </div>
+            
+            <div class="ingredient-item">
+              <span class="ingredient-name">olje (ss)</span>
+              <span id="olje-amount" class="ingredient-amount">1</span>
+            </div>
+
+            <p>Mangosaus</p>
+            <div class="ingredient-item">
+              <span class="ingredient-name">mangochutney(g)</span>
+              <span id="mango-amount" class="ingredient-amount">250</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">kremfløte(ts)</span>
+              <span id="kremfløte-amount" class="ingredient-amount">1</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">smør(g)</span>
+              <span id="smør-amount" class="ingredient-amount">50</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">gul karripaste(ss)</span>
+              <span id="karripaste-amount" class="ingredient-amount">2</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">vann(dl)</span>
+              <span id="vann-amount" class="ingredient-amount">0,5</span>
+            </div>
+
+            <p>Topping</p>
+            <div class="ingredient-item">
+              <span class="ingredient-name">koriander(ss)</span>
+              <span id="koriander-amount" class="ingredient-amount">2</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">salte peanøtter(ss)</span>
+              <span id="peanøtter-amount" class="ingredient-amount">2</span>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-name">chiliflakes(ss)</span>
+              <span id="chili-amount" class="ingredient-amount">0,5</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="split right">
+      <div class="centered">
+        <h2>Fremgangsmåte</h2>
+        <p>
+          1. Krydre kyllingfilet med salt og pepper. Ha olje i en varm stekepanne og stek kyllingen til den har fått en fin stekeskorpe og legg den over i en ildfast form. <br>
+          <br>
+          2. Ha mangochutney, fløte, smør, karripaste og vann i en foodprosessor og kjør til en jevn konsistens. Alternativt kan du ha ingrediense i en bolle og bruke stavmikser. <br>
+          <br>
+          3. Hell mangosausen over kyllingen i den ildfaste formen. Sett formen midt i ovnen og stek på 200 °C i ca. 30 minutter, eller til kyllingen er gjennomstekt. <br>
+          <br>
+          Server kylling i mangosaus med ris og hjemmelaget nanbrød.
+        </p>
+      </div>
+    </div>
+</section>
+
+</body>
+</html>

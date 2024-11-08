@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Ingredient List</title>
+  
+</head>
+<body>
+
+  <div class="ingredients-container">
+    <h2>Ingredient Calculator</h2>
+    <h3>Enter Portions</h3>
+    <input type="number" id="portion-input" min="1" value="1" oninput="updateIngredients()">
+    
+    <div class="ingredient-item">
+      <span class="ingredient-name">Flour (cups)</span>
+      <span id="flour-amount" class="ingredient-amount">1</span>
+    </div>
+    
+    <div class="ingredient-item">
+      <span class="ingredient-name">Sugar (cups)</span>
+      <span id="sugar-amount" class="ingredient-amount">0.5</span>
+    </div>
+    
+    <div class="ingredient-item">
+      <span class="ingredient-name">Butter (tbsp)</span>
+      <span id="butter-amount" class="ingredient-amount">2</span>
+    </div>
+    
+    <div class="ingredient-item">
+      <span class="ingredient-name">Milk (cups)</span>
+      <span id="milk-amount" class="ingredient-amount">1</span>
+    </div>
+  </div>
+
+  <script>
+    // Base ingredient amounts for one portion
+    const baseAmounts = {
+      flour: 1,        // 1 cup per portion
+      sugar: 0.5,      // 0.5 cups per portion
+      butter: 2,       // 2 tablespoons per portion
+      milk: 1          // 1 cup per portion
+    };
+
+    // Function to update ingredient amounts based on portions
+    function updateIngredients() {
+      const portions = document.getElementById("portion-input").value || 1;
+      
+      // Update each ingredient amount
+      document.getElementById("flour-amount").textContent = (baseAmounts.flour * portions).toFixed(1);
+      document.getElementById("sugar-amount").textContent = (baseAmounts.sugar * portions).toFixed(1);
+      document.getElementById("butter-amount").textContent = (baseAmounts.butter * portions).toFixed(1);
+      document.getElementById("milk-amount").textContent = (baseAmounts.milk * portions).toFixed(1);
+    }
+
+    // Initialize ingredient amounts on load
+    updateIngredients();
+  </script>
+
+</body>
+</html>
