@@ -1,7 +1,7 @@
 // Base ingredient amounts for one portion
 const baseAmounts = {
     Poteter: 2,        
-    hvitløk: 2,
+    hvitløk: 1,
     smør: 75,
 
   };
