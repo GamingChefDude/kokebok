@@ -29,6 +29,14 @@ color: #fff;
 text-decoration: dashed;
 margin: 30px;
 }
+#index_start:hover{
+  background-color: #3e8e41;
+  border-radius: 20px;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -49,10 +57,11 @@ margin: 30px;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(white, gray);;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
   }
   
   /* Links inside the dropdown */
@@ -61,6 +70,7 @@ margin: 30px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    
   }
   
   /* Change color of dropdown links on hover */
