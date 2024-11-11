@@ -2,7 +2,7 @@
 const baseAmounts = {
     Poteter: 2,        
     hvitløk: 2,
-    smør: 4,
+    smør: 75,
 
   };
 
