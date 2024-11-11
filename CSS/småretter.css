@@ -23,3 +23,7 @@ p{
     font-size: 20px;
         
     }
+    #div2:hover{
+      box-shadow: 5px 5px 10px red;
+    }
+    

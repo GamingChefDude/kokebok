@@ -73,7 +73,29 @@ margin: 30px;
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
+/* custem scroller    
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightblue; 
+    border-radius: 7px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+    
+  }
 
 
   
