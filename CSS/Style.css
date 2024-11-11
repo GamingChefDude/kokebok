@@ -74,7 +74,7 @@ margin: 30px;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;
+  .dropdown-content a:hover {background-color: #6ab16c;
   border-radius: 20px;
   }
   
@@ -102,17 +102,19 @@ margin: 30px;
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: lightblue; 
+    background: #6ab16c; 
     border-radius: 7px;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: blue; 
+    background: #3e8e41; 
     
   }
 
-
+img{
+  border-radius: 50px;
+}
   
   
 
