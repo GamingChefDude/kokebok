@@ -5,7 +5,12 @@ const baseAmounts = {
     vann: 0.1,       
     revetost: 20,  
     chili: 0.2,    
-    olje: 0.1
+    olje: 0.1,
+    hvetemel: 52,
+    tørrgjærd: 0.2,
+    salt: 0.1,
+    sukker: 0.1,
+    vann1: 0.35
   };
 
   // Function to update ingredient amounts based on portions
@@ -19,6 +24,14 @@ const baseAmounts = {
     document.getElementById("revetost-amount").textContent = (baseAmounts.revetost * portions).toFixed(1);
     document.getElementById("chili-amount").textContent = (baseAmounts.chili * portions).toFixed(1);
     document.getElementById("olje-amount").textContent = (baseAmounts.olje * portions).toFixed(1);
+    document.getElementById("hvetemel-amount").textContent = (baseAmounts.hvetemel * portions).toFixed(1);
+    document.getElementById("tørrgjærd-amount").textContent = (baseAmounts.tørrgjærd * portions).toFixed(1);
+    document.getElementById("salt-amount").textContent = (baseAmounts.salt * portions).toFixed(1);
+    document.getElementById("sukker-amount").textContent = (baseAmounts.sukker * portions).toFixed(1);
+    document.getElementById("vann1-amount").textContent = (baseAmounts.vann1 * portions).toFixed(1);
+  
+  
+  
   }
 
   // Initialize ingredient amounts on load
