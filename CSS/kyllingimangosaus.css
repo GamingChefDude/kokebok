@@ -16,8 +16,8 @@
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 65%;
-    width: 24%;
+    height: 600px;
+    width: 400px;
   }
   
   /* Control the right side */
@@ -29,8 +29,8 @@
     left: 75%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 45%;
-    width: 40%;
+    height: 400px;
+    width: 700px;
   }
 
 p{

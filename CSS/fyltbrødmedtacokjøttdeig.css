@@ -12,12 +12,12 @@
     left: 3%;
     background-color: darkgray;
     position: absolute;
-    top: 950px;
+    top: 1020px;
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 300px;
-    width: 24%;
+    height: 450px;
+    width: 400px;
   }
   
   /* Control the right side */
@@ -25,12 +25,12 @@
     right: 3%;
     background-color: lightgray;
     position: absolute;
-    top: 1025px;
+    top: 1000px;
     left: 75%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 50%;
-    width: 40%;
+    height: 400px;
+    width: 700px;
   }
 
 p{
