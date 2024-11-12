@@ -1,6 +1,6 @@
 .column {
-    text-align: center;
-    width: 90%;
+    float: left;
+    width: 30%;
     padding: 0.5%;
     height: 677px;
   }
