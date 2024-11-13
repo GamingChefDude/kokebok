@@ -1,4 +1,8 @@
 /* Split the screen in half */
+section{
+  column-gap: 10%;
+}
+
 .split {
     position: fixed;
     z-index: 1;
@@ -9,25 +13,22 @@
   
   /* Control the left side */
   .left {
-    left: 3%;
     background-color: darkgray;
     position: absolute;
-    top: 1100px;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    top: 800px;
+    left: 4%;
     text-align: center;
     height: 60%;
-    width: 30%;
+    width: 20%;
   }
   
   /* Control the right side */
   .right {
-    right: 3%;
     background-color: lightgray;
     position: absolute;
-    top: 1000px;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    top: 800px;
+    left: 30%;
+
     text-align: center;
     height: 40%;
     width: 40%;
